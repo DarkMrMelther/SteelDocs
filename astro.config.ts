@@ -22,7 +22,7 @@ export default defineConfig({
         {
           icon: "discord",
           label: "Discord",
-          href: "https://discord.gg/MwChEHnAbh",
+          href: "/discord",
         },
         {
           icon: "github",
@@ -37,7 +37,7 @@ export default defineConfig({
             es: "Primeros pasos",
             de: "Erste Schritte",
           },
-          autogenerate: { directory: "guides/getting-started" },
+          autogenerate: { directory: "getting-started" },
         },
         {
           label: "Configuration",
@@ -45,7 +45,7 @@ export default defineConfig({
             es: "Configuración",
             de: "Konfiguration",
           },
-          autogenerate: { directory: "guides/configuration" },
+          autogenerate: { directory: "configuration" },
         },
         {
           label: "Development",
@@ -54,18 +54,18 @@ export default defineConfig({
             de: "Entwicklung",
           },
           items: [
-            "guides/development/decompile-minecraft",
-            "guides/development/upgrade-minecraft",
-            "guides/development/code-standard",
-            "guides/development/block_item_registration",
-            "guides/development/registries",
+            "development/decompile-minecraft",
+            "development/upgrade-minecraft",
+            "development/code-standard",
+            "development/block_item_registration",
+            "development/registries",
             {
               label: "Blocks",
               translations: {
                 es: "Bloques",
                 de: "Blöcke",
               },
-              autogenerate: { directory: "guides/development/blocks" },
+              autogenerate: { directory: "development/blocks" },
             },
             {
               label: "Items",
@@ -73,7 +73,7 @@ export default defineConfig({
                 es: "Objetos",
                 de: "Items",
               },
-              autogenerate: { directory: "guides/development/items" },
+              autogenerate: { directory: "development/items" },
             },
             {
               label: "Network",
@@ -81,7 +81,7 @@ export default defineConfig({
                 es: "Red",
                 de: "Netzwerk",
               },
-              autogenerate: { directory: "guides/development/network" },
+              autogenerate: { directory: "development/network" },
             },
             {
               label: "Tools",
@@ -89,7 +89,7 @@ export default defineConfig({
                 es: "Herramientas",
                 de: "Werkzeuge",
               },
-              autogenerate: { directory: "guides/development/tools" },
+              autogenerate: { directory: "development/tools" },
             },
           ],
         },

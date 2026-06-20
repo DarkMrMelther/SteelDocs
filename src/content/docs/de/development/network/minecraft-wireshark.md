@@ -15,8 +15,8 @@ Du findest dies in der Datei `config/config.json5`, die nach dem ersten Start ge
 
 Du benötigst:
 
-* Einen **lokalen Minecraft-Server**
-* **Wireshark** mit Root-Rechten (oder entsprechenden Berechtigungen), um Traffic auf `localhost` zu erfassen
+- Einen **lokalen Minecraft-Server**
+- **Wireshark** mit Root-Rechten (oder entsprechenden Berechtigungen), um Traffic auf `localhost` zu erfassen
 
 Erfasste Pakete können mit der offiziellen Protokolldokumentation verglichen werden:
 [https://minecraft.wiki/w/Java_Edition_protocol/Packets](https://minecraft.wiki/w/Java_Edition_protocol/Packets)
@@ -34,7 +34,7 @@ Repository:
 
 Anforderungen:
 
-* **Wireshark 4.6** (empfohlen)
+- **Wireshark 4.6** (empfohlen)
 
 Die beste Empfehlung ist, das Plugin selbst zu kompilieren, indem du die Anweisungen in der `ci.yaml`-Datei des Repositorys befolgst.
 
@@ -75,11 +75,11 @@ mcje
 
 Am Ende werden die Pakete **deutlich lesbarer** sein als rohe Netzwerkdaten, was das Protokoll-Debugging erheblich erleichtert.
 
-![Wireshark view](../../../../../../assets/wireshark_output.webp "Minecraft packet dissector output")
+![Wireshark view](@/assets/wireshark_output.webp "Minecraft packet dissector output")
 
 ## Weitere nützliche Ressourcen
 
 Diese Ressourcen können dir helfen, ein tieferes Verständnis zu erlangen:
 
-- [Dekompiliertes Minecraft](../../../getting-started/decompile-minecraft)
+- [Dekompiliertes Minecraft](../../getting-started/decompile-minecraft)
 - [https://minecraft.wiki/w/Java_Edition_protocol/Packets](https://minecraft.wiki/w/Java_Edition_protocol/Packets)

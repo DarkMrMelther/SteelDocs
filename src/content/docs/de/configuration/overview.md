@@ -18,4 +18,4 @@ Konfiguriere deinen SteelMC-Server mit individuellen Einstellungen und Funktione
 Für vollständige technische Referenzen, siehe:
 
 - [**Server-Konfiguration**](../server-configuration) - Alle Konfigurationsoptionen für steel_config.json5
-- [**Feature Flags**](../../../reference/feature-flags) - Compile-Zeit Feature Flags für individuelle Builds
+- [**Feature Flags**](../../reference/feature-flags) - Compile-Zeit Feature Flags für individuelle Builds

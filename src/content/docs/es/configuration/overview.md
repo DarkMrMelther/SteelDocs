@@ -18,4 +18,4 @@ Configura tu servidor de SteelMC con opciones y características personalizadas.
 Para referencias tecnicas completas, echale un vistazo a:
 
 - [**Configuración del servidor**](../server-configuration) - Todas las opciones de configuracion del steel_config.json5
-- [**Feature Flags**](../../../reference/feature-flags) - Opciones a la hora de compilar para personalizar tu servidor
+- [**Feature Flags**](../../reference/feature-flags) - Opciones a la hora de compilar para personalizar tu servidor

@@ -15,8 +15,8 @@ You can find it in this file `config/steel_config.json5`, which will be generate
 
 You will need:
 
-* A **local Minecraft server**
-* **Wireshark** running with root privileges (or proper permissions) to capture traffic on `localhost`
+- A **local Minecraft server**
+- **Wireshark** running with root privileges (or proper permissions) to capture traffic on `localhost`
 
 Captured packets can be compared with the official protocol documentation:
 [https://minecraft.wiki/w/Java_Edition_protocol/Packets](https://minecraft.wiki/w/Java_Edition_protocol/Packets)
@@ -35,7 +35,7 @@ Repository:
 
 Requirements:
 
-* **Wireshark 4.6** (recommended)
+- **Wireshark 4.6** (recommended)
 
 The best recommendation is to compile the plugin yourself using the instructions in the `ci.yaml` file of the
 repository.
@@ -49,6 +49,7 @@ After compilation, copy the generated `.so` file to:
 
 **For Windows:**\
 After compilation, copy the generated `.dll` file to:
+
 ```bash
 plugins/<Wireshark Version>/epan
 ```
@@ -84,11 +85,11 @@ mcje
 
 At the end, the packets will be **far more readable** than raw network data, making protocol debugging much easier.
 
-![Wireshark view](../../../../../assets/wireshark_output.webp "Minecraft packet dissector output")
+![Wireshark view](@/assets/wireshark_output.webp "Minecraft packet dissector output")
 
 ## Another useful resources
 
 These resources can you help to get a deeper understanding:
 
-- [Decompiled Minecraft](../../../getting-started/decompile-minecraft)
+- [Decompiled Minecraft](../../getting-started/decompile-minecraft)
 - [https://minecraft.wiki/w/Java_Edition_protocol/Packets](https://minecraft.wiki/w/Java_Edition_protocol/Packets)

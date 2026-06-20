@@ -13,8 +13,8 @@ Puedes encontrar este ajuste en `config/steel_config.json5`, que es generado tra
 
 Vas a necesitar:
 
-* Un **servidor local de Minecraft**
-* **Wireshark** ejecutándose de fondo con permisos de administración (o los permisos adecuados) captando el tráfico de `localhost`
+- Un **servidor local de Minecraft**
+- **Wireshark** ejecutándose de fondo con permisos de administración (o los permisos adecuados) captando el tráfico de `localhost`
 
 Los paquetes captados pueden ser comparados con la documentación oficial del protocolo:
 [https://minecraft.wiki/w/Java_Edition_protocol/Packets](https://minecraft.wiki/w/Java_Edition_protocol/Packets)
@@ -32,7 +32,7 @@ Repositorio:
 
 Requisitos:
 
-* **Wireshark 4.6** (recomendado)
+- **Wireshark 4.6** (recomendado)
 
 Nuestra recomendación es que compiles este plugin por ti mismo empleando las instrucciones en el archivo `ci.yaml` del repositorio.
 
@@ -81,11 +81,11 @@ mcje
 
 Al final, los paquetes aparecerán de una forma **mucho más legible** que la información de red en bruto, haciendo el depurado del protocolo mucho más sencillo.
 
-![Vistazo a Wireshark](../../../../../../assets/wireshark_output.webp "Salida del Minecraft packet dissector")
+![Vistazo a Wireshark](@/assets/wireshark_output.webp "Salida del Minecraft packet dissector")
 
 ## Recursos adicionales
 
 Estos recursos pueden ayudarte a tener un entendimiento mayor:
 
-- [Como decompilar Minecraft](../../../getting-started/decompile-minecraft)
+- [Como decompilar Minecraft](../../getting-started/decompile-minecraft)
 - [https://minecraft.wiki/w/Java_Edition_protocol/Packets](https://minecraft.wiki/w/Java_Edition_protocol/Packets)
