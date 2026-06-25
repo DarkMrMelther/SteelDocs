@@ -389,14 +389,14 @@
       ]
     },
     "SpongeBlock": {
-      "implemented": false,
+      "implemented": true,
       "todos": [],
       "entries": [
         "sponge"
       ]
     },
     "WetSpongeBlock": {
-      "implemented": false,
+      "implemented": true,
       "todos": [],
       "entries": [
         "wet_sponge"
@@ -487,9 +487,7 @@
     },
     "DryVegetationBlock": {
       "implemented": true,
-      "todos": [
-        "Implement full vanilla behavior beyond can_survive."
-      ],
+      "todos": [],
       "entries": [
         "dead_bush"
       ]
@@ -505,18 +503,14 @@
     },
     "ShortDryGrassBlock": {
       "implemented": true,
-      "todos": [
-        "Implement full vanilla behavior beyond can_survive."
-      ],
+      "todos": [],
       "entries": [
         "short_dry_grass"
       ]
     },
     "TallDryGrassBlock": {
       "implemented": true,
-      "todos": [
-        "Implement full vanilla behavior beyond can_survive."
-      ],
+      "todos": [],
       "entries": [
         "tall_dry_grass"
       ]
@@ -992,9 +986,7 @@
     },
     "CactusBlock": {
       "implemented": true,
-      "todos": [
-        "Implement when pathfinding is supported"
-      ],
+      "todos": [],
       "entries": [
         "cactus"
       ]
@@ -1462,7 +1454,7 @@
       ]
     },
     "CocoaBlock": {
-      "implemented": false,
+      "implemented": true,
       "todos": [],
       "entries": [
         "cocoa"
@@ -2282,9 +2274,7 @@
     },
     "NetherRootsBlock": {
       "implemented": true,
-      "todos": [
-        "Implement full vanilla behavior beyond can_survive."
-      ],
+      "todos": [],
       "entries": [
         "warped_roots",
         "crimson_roots"
@@ -2763,9 +2753,7 @@
     },
     "CarpetBlock": {
       "implemented": true,
-      "todos": [
-        "Implement full vanilla behavior beyond can_survive."
-      ],
+      "todos": [],
       "entries": [
         "moss_carpet"
       ]
@@ -2826,15 +2814,13 @@
     },
     "HangingRootsBlock": {
       "implemented": true,
-      "todos": [
-        "Implement scheduled water-tick handoff on shape updates."
-      ],
+      "todos": [],
       "entries": [
         "hanging_roots"
       ]
     },
     "RootedDirtBlock": {
-      "implemented": false,
+      "implemented": true,
       "todos": [],
       "entries": [
         "rooted_dirt"
@@ -2907,9 +2893,7 @@
     },
     "HangingMossBlock": {
       "implemented": true,
-      "todos": [
-        "Implement TIP property update on shape changes, bonemeal growth, and tick."
-      ],
+      "todos": [],
       "entries": [
         "pale_hanging_moss"
       ]
@@ -4229,8 +4213,10 @@
       ]
     },
     "FoodOnAStickItem": {
-      "implemented": false,
-      "todos": [],
+      "implemented": true,
+      "todos": [
+        "Award Stats.ITEM_USED once the stat foundation exists."
+      ],
       "entries": [
         "carrot_on_a_stick",
         "warped_fungus_on_a_stick"
@@ -4373,7 +4359,7 @@
     "BucketItem": {
       "implemented": true,
       "todos": [
-        "Remove fallback once all waterloggable blocks implement pickup_block",
+        "Remove fallback once all waterloggable blocks implement pickup_block.",
         "Refactor into smaller helpers once all bucket types are implemented",
         "Per-position environment attributes (vanilla uses EnvironmentAttributes.WATER_EVAPORATES per-pos)"
       ],
@@ -4705,7 +4691,7 @@
       ]
     },
     "MaceItem": {
-      "implemented": false,
+      "implemented": true,
       "todos": [],
       "entries": [
         "mace"
