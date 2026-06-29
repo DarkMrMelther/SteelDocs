@@ -1,8 +1,6 @@
 ---
 title: How do registries work
 description: Deep dive into learning how to use and write a registry
-sidebar:
-  order: 5
 ---
 
 ## What is a registry?

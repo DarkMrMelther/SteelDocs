@@ -78,7 +78,7 @@ The `nightly` tag is available for plugin testing and early testing of upcoming 
 Run the Steel container with the server port exposed and local folders mounted for configuration and saves:
 
 ```bash
-docker run -d -p 25565:25565 -v ./config:/config -v ./saves:/saves ghcr.io/steel-foundation/steelmc:<version>
+docker run -d -p 25565:25565 -v ./config:/config -v ./saves:/saves -v ./logs:/logs ghcr.io/steel-foundation/steelmc:<version>
 ```
 
 :::note
@@ -98,6 +98,7 @@ services:
     volumes:
       - ./config:/config
       - ./saves:/saves
+      - ./logs:/logs
 ```
 
 Docker Compose is another way to write the `docker run` command in a file.\
@@ -118,9 +119,9 @@ For Pelican and Pterodactyl, Steel provides an egg that can be imported directly
 
 For other egg-based platforms, use the JSON or YAML egg files from our repository, or download the matching egg from one of the supported stores when available.
 
-Pelican: `<link>`
+Pelican: `[Coming Soon]`
 
-Pterodactyl: `<link>`
+Pterodactyl: `[Coming Soon]`
 
 ## Self Compilation
 
@@ -172,6 +173,11 @@ For more help we can support at [discord](/discord).
 | `cargo check`                  | Fast syntax and type checking                                                           |
 | `cargo test`                   | Run the test suite                                                                      |
 | `cargo clippy`                 | Run the linter                                                                          |
+
+:::caution
+Native builds can't be executed on other machines, only in the same one where they were compiled.
+(Or one with the same architecture)
+:::
 
 #### Build Features
 

@@ -27,22 +27,26 @@ You should also take a look at [our code standards](../code-standard).
 
 ## Preparations
 
-Now that you know about our philosophy is time to start working in your pr, but first...
+Now that you know about our philosophy is time to start working on your pr, but first...
 
 ### Selecting what to do
 
 To know what to do there's many methods, but we encourage to do this steps:
 
-- Check [our open PRs](https://github.com/Steel-Foundation/SteelMC/pulls) to know what's been worked by others
+- Check [our open PRs](https://github.com/Steel-Foundation/SteelMC/pulls) to know what's been worked by others (Filter by the "Good first contribution" label is recommended)
 - Check [our open issues](https://github.com/Steel-Foundation/SteelMC/issues) to see what can be fixed
 - Check [our tracker](../../tracker) to see what's missing
-- Ask in [our discord](/discord) to confirm if you can implement something
+- Ask inside #dev-work in [our discord](/discord) to confirm if you can implement something
 
 ### Creating a new branch
 
 First, if you don't have a fork of SteelMC in your GitHub account, go [here to fork it](https://github.com/Steel-Foundation/SteelMC/fork).
 
 Once in your fork, make a new branch specifiying in the name what feature are you implementing.
+
+:::caution
+Make sure to create your branch from our `main` or `dev` branch, not from a feature branch, unless you know what you're doing.
+:::
 
 Clone that branch into your device to start working.
 
@@ -61,7 +65,7 @@ We have multiple guides to help you with implementing some parts of the code:
 
 ## Once finished
 
-Once your feature is completly implemented in the code, tested by you, ensured that all is updated to the last commit, and uploaded to your GitHub branch, you should open a PR with your branch to our original repository.
+Once your feature is completly implemented in the code, tested by you, ensured that all is updated to the last commit, and uploaded to your GitHub branch, you should open a PR with your branch to our original repository, but first let's make sure your code is ready to be reviewed.
 
 :::note
 We have checks to ensure the code quality, this commands will allow you to check if there's something failing in your code quality:
@@ -78,6 +82,12 @@ typos
 ```
 
 You can find how to install `typos` [here](https://crates.io/crates/typos-cli#install)
+
+We have a [Prek](https://prek.j178.dev/) configuration file in the codebase, with it you can run `prek` locally to automatically prepare your code to be reviewed.
+
+```bash
+prek run
+```
 :::
 
 Fullfill your pull request name, and description following our template.
