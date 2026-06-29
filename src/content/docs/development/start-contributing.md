@@ -33,8 +33,8 @@ Now that you know about our philosophy is time to start working on your pr, but 
 
 To know what to do there's many methods, but we encourage to do this steps:
 
-- Check [our open PRs](https://github.com/Steel-Foundation/SteelMC/pulls) to know what's been worked by others (Filter by the "Good first contribution" label is recommended)
-- Check [our open issues](https://github.com/Steel-Foundation/SteelMC/issues) to see what can be fixed
+- Check [our open PRs](https://github.com/Steel-Foundation/SteelMC/pulls) to know what's been worked by others
+- Check [our open issues](https://github.com/Steel-Foundation/SteelMC/issues) to see what can be fixed (Filter by the `good first issue` label is recommended)
 - Check [our tracker](../../tracker) to see what's missing
 - Ask inside #dev-work in [our discord](/discord) to confirm if you can implement something
 
