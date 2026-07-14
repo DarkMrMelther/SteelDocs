@@ -2,7 +2,9 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [master]
+    branches: [master, gh-actions]
+  repository_dispatch:
+    types: [steel-released]
   workflow_dispatch:
 
 # Allow this job to clone the repo and create a page deployment
